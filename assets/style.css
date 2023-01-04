@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url(/font/Merriweather-Regular.ttf) format('ttf');
+   }
+   @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: weight;
+    src: url(/font/Merriweather-Regular.ttf) format('ttf');
+  }
+
+* {
+    font-family: Merriweather;
+    font-size: 28px;
+}
