@@ -10,6 +10,69 @@
   }
 
 * {
-    font-family: Merriweather;
-    font-size: 28px;
+  font-family: Merriweather;
+  font-size: 28px;
+}
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+background-image: url(../images/pexels-jeswin-thomas-1007425.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: auto;
+}
+
+.LHS-Card {
+position: absolute;
+top: 20px;
+left: 20px;
+color: white;
+background-color: none;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.RHS-Card {
+position: absolute;
+top: 20px;
+right: 20px;
+color: white;
+}
+
+h2 {
+text-align: center;
+font-size: 60px;
+}
+
+p {
+text-align: center;
+font-size: 24px;
+}
+
+.Main-Card {
+justify-content: center;
+color: white;
+padding-top: 250px;
+}
+
+#takequiz-button {
+margin: 0;
+position: relative;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+left: 47%;
+}
+
+.footer {
+position: absolute;
+bottom: 20px;
+left: 40%;
+display: flex;
+text-align: center;
+color: white;
+/* padding-bottom: 15px; */
 }
