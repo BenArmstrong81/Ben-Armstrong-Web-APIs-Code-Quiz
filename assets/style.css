@@ -19,7 +19,7 @@ padding: 0;
 }
 
 body {
-background-image: url(../images/pexels-jeswin-thomas-1007425.jpg);
+background-image: url(../images/pexels-mati-mango-5952651.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: auto;
@@ -45,6 +45,7 @@ color: white;
 h2 {
 text-align: center;
 font-size: 60px;
+padding-bottom: 15px;
 }
 
 p {
@@ -61,10 +62,15 @@ padding-top: 250px;
 #takequiz-button {
 margin: 0;
 position: relative;
-top: 50%;
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-left: 47%;
+top: 60%;
+/* -ms-transform: translateY(-50%);
+transform: translateY(-50%); */
+left: 40%;
+background-color: red;
+color: white;
+border-radius: 10px;
+height: 75px;
+width: 350px;
 }
 
 .footer {

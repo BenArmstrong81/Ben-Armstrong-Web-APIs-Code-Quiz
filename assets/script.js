@@ -1,5 +1,12 @@
+//Constants
+const timeAllowed = 90;
+const timeDeduction = 10;
+const totalQuestions = 9;
+const scoreKey ="quizscore";
+const correctMessage = "Correct!";
+const incorrectMessage = "Incorrect!";
 // List of Questions, the muliple choice answers and the correct answer:
-var questions = [
+const allQuestions = [
     {
         questions: "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
         choices: ["if (i != 5)", "if (i <> 5)", "if i =! 5 then", "if i <> 5"],
@@ -48,3 +55,7 @@ var questions = [
         answer: "All the above"
     }
 ];
+
+//Global variables.
+var timeRemaining = -1;
+var timeInterval;
