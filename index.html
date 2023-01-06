@@ -10,27 +10,107 @@
 </head>
 <body>
     <main>
-        <div class="LHS-Card">
-            <h1 id="highscores">Highscores</h1>
-            <!-- <div class="scores"><a href="score.html">View Highscores</a></div> -->
+<!-- Left Hand Side = Highscores Link -->
+        <div class="LHS">
+            <button id="leaderBtn" type="button" class="btn">View High Scores</button><br>
         </div>
+
+<!-- Main Section -->
+        <div class="Main">
+            <div class="start">
+            <h2>Coding Quiz!</h2>
+            <p>Dare to tackle this head on?... There are 9 coding questions, can you crack them all? 
+            <br>Take heed...one false stroke of the keyboard and you'll loose 10 seconds for every incorrect answer!</p>
+            <br>    
+            <button id="beginBtn" type="button" class="btn">Risk It All & the Take Quiz</button>
+            </div>
+        </div>
+
+<!-- Right Hand Side = Timer -->
+        <div class="RHS">
+            <h1 class="timer">Time: <span id="time">0</span></h1>
+        </div>
+
+<!-- **Quiz Window** -->
+        <div id="gameCard" class="w3-container hide">
+
+            <div id="card1" class="w3-card-4">
+      
+            <header class="w3-container w3-light-grey">
+                <h3 id="question">Question Goes HERE!</h3>
+            </header>
+
+            <hr style="margin-top:0; border-color:transparent;">
+
+            <div id="multipleChoice" class="w3-container">
+                <div class="questionLine">
+                <label id="multiple-choice-A"></label>
+                </div><hr>
+
+            <div class="questionLine">
+            <label id="multiple-choice-B"></label>
+            </div><hr>
+
+            <div class="questionLine">
+            <label id="multiple-choice-C"></label>
+            </div><hr>
+
+            <div class="questionLine">
+            <label  id="multiple-choice-D"></label>            
+            </div>
+
+            </div>
         
-        <div class="RHS-Card">
-            <h1>Time: <span id="time">0</span></h1>
+
+            <hr style="margin-top:0; border-color:transparent;">
+
+            <footer id="feedback1" class="w3-block w3-dark-grey">So you took the challenge hey? 😏</footer>
+
+            </div>
+    
+    </div>
+        
+<!--**Player Input Window**-->
+        <div id="inputForm" class="w3-container hide">
+
+        <h1>!! GAME OVER !!</h1>
+    
+        <h2>You scored <span id="scoreBtn" class="btn">Score</span> points!</h2>
+        <form>
+            <label for="initialsBox">Enter Your Initials Here:</label><br>
+            <input id="initialsBox" type="text" maxlength="3"><br>
+            <input id="submitBtn" type="submit" class="btn">
+        </form>
+
         </div>
 
-        <div class="Main-Card">
-        <h2>Coding Quiz!</h2>
-        <p>Dare to take an adventure?... There are 9 coding questions, can you crack them all? 
-        <br>Take heed...one false step and you'll loose 10 seconds for every incorrect answer!</p>
-        <br>    
-        <button id="takequiz-button">Risk It All & the Take Quiz</button>
-        </div>
 
+ <!--**High Score Window**-->
+        <div id="scoreCard" class="w3-container hide">
+
+            <div id="card2" class="w3-card-4">
+
+            <header class="w3-container w3-light-grey">
+                <h1>Top 10 High Scores</h1>
+            </header>
+
+            <hr style="margin-top:0; border-color:transparent;">
+             <div id="leaderBoard" class="w3-container" style="min-height: 275px"></div>
+
+            <hr style="margin-top:0; border-color:transparent;">
+                <footer id="feedback2" class="w3-block w3-dark-grey">Thx for Playing</footer>
+            </div>
+
+            <button id="backBtn" type="button" class="btn">Go Back</button>
+            <button id="clearBtn" type="button" class="btn">Clear High Score</button>
+
+        </div>
+<!-- JavaScript Link -->
     </main>
     <script src="./assets/script.js"></script>
 </body>
 
+<!-- Footer -->
 <footer class="footer">
     <h3>Made with 💖 by Ben Armstrong</h3>
 </footer>
