@@ -61,12 +61,12 @@ This was our 4th week and having a Christmas Break inbetween gave me the time to
 N/A
 
 # Usage
-To use and view this challenge please use this the following link to access the deployed website: "https://benarmstrong81.github.io/Ben-Armstrong-Portfolio/" 
+To use and view this challenge please use this the following link to access the deployed website: "https://benarmstrong81.github.io/Ben-Armstrong-Web-APIs-Code-Quiz/" 
 
-My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - you can even download a updated resume.
+My JavaScript ran Coding Quiz game includes 9x multiple choice questions, a time that subtracts 10 seconds for every incorrect answers, a high score tally which includes reset options.
 The following image shows the web application's appearance:
 
-![My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - even download an updated resume.](./Images/BenArmstrongPortfolioWebsiteScreenShot.JPG)
+![My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - even download an updated resume.](./images/BenArmstrong-Web-API-Challenge-HomeScreen.png)
 
 # Credits
 With special thanks to the UniSA Full Stack Web Development Class.
