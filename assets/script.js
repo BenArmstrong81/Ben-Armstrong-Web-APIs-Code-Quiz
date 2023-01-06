@@ -1,11 +1,3 @@
-//Constants
-// const timeAllowed = 90;
-// const timeDeduction = 10;
-// const totalQuestions = 9;
-// const scoreKey ="quizscore";
-// const correctMessage = "Correct!";
-// const incorrectMessage = "Incorrect!";
-
 // Global variables:
 var beginQuiz = document.querySelector("#beginBtn");
 var leaderBtn = document.querySelector("#leaderBtn");

@@ -9,14 +9,22 @@
     src: url(/font/Merriweather-Regular.ttf) format('ttf');
   }
 
+:root {
+  --main-text: white;
+  --alternative-heading-color: #6f99f9;
+  --text-within-box-shadow: -1px 0 #333, 0 2px black, 1px 0 black, 0 -1px black;
+}
+
 * {
   font-family: Merriweather;
   font-size: 28px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  color: var(--main-text);
 }
+
+/* -------------------Body including the background picture */
 
 body {
   background-image: url(../images/pexels-mati-mango-5952651.jpg);
@@ -25,45 +33,48 @@ body {
   background-size: auto;
 }
 
+/* ----------------High Scores Styling*/
 .LHS {
   position: absolute;
   top: 20px;
   left: 20px;
-  color: white;
+  color: var(--main-text);
   background-color: none;
   padding-left: 20px;
 }
 
+/* ------------------Timer Styling*/
 .RHS {
   position: absolute;
   top: 20px;
   right: 20px;
-  color: white;
+  color: var(--main-text);
   padding-right: 20px;
 }
 
+/* ----------------Different Heading Styling */
 h2 {
   text-align: center;
-  color: white;
+  color: var(--main-text);
   font-size: 60px;
   padding-bottom: 15px;
 }
 
 h5 {
   font-size: 44px;
-  color: #6f99f9;
+  color: var(--alternative-heading-color);
 }
 
 h4, form {
   text-align: center;
-  color: white;
+  color: var(--main-text);
   font-size: 60px;
   padding-bottom: 15px;
 }
 
 h6 {
 font-size: 44px;
-color: #6f99f9;
+color: var(--alternative-heading-color);
 }
 
 
@@ -77,12 +88,13 @@ hr {
 }
 
 label {
-  color: white;
+  color: var(--main-text);
   font-size: 1.5rem;
   margin: 0;
   padding: 0.5rem;
 }
 
+/* --------------Containers */
 .container {
   width: 100vw;
   height: 100vw;
@@ -112,12 +124,12 @@ label {
 }
 
 #feedback2 {
-  color: #6f99f9;
+  color: var(--alternative-heading-color);
 }
 
 #card1, #card2 {
   background-color: black;
-  color: white;
+  color: var(--main-text);
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -129,7 +141,7 @@ label {
 #initialsBox {
   position: relative;
   background-color: black;
-  color: white;
+  color: var(--main-text);
   border-color: #e0770f;
   height: 3rem;
   font-size: 2rem;
@@ -145,7 +157,7 @@ h1:hover {
   color: #e0770f;
 }
 
- /* Buttons  */
+ /* --------------------------Buttons  */
 
 #beginBtn {
   margin: 0;
@@ -157,11 +169,11 @@ h1:hover {
   height: 75px;
   width: 350px;
   border-color: #333;
-  color: white;
+  color: var(--main-text);
   margin: 0.5rem;
   padding: 0.5rem;
   text-decoration: none;
-  text-shadow: -1px 0 #333, 0 2px black, 1px 0 black, 0 -1px black;
+  text-shadow: var(--text-within-box-shadow);
 }
 .btn {
   margin: 0;
@@ -171,11 +183,11 @@ h1:hover {
   border-radius: 10px;
   width: 350px;
   border-color: #333;
-  color: white;
+  color: var(--main-text);
   margin: 0.5rem;
   padding: 0.5rem;
   text-decoration: none;
-  text-shadow: -1px 0 #333, 0 2px black, 1px 0 black, 0 -1px black;
+  text-shadow: var(--text-within-box-shadow);
 }
 
 .btn:hover {
@@ -191,20 +203,20 @@ h1:hover {
   transform: none;
 }
 
-/* Main Sytles */
+/* ---------------------Main Sytles */
 
 .Main {
   justify-content: center;
-  color: white;
+  color: var(--main-text);
   padding-top: 250px;
 }
 
+/* --------------------Footer */
 .footer {
   position: absolute;
   bottom: 20px;
   left: 40%;
   display: flex;
   text-align: center;
-  color: white;
-  /* padding-bottom: 15px; */
+  color: var(--main-text);
 }
